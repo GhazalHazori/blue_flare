@@ -1,4 +1,4 @@
-import 'package:flutter_templat/core/enums/file_type_enum.dart';
+import 'package:blue_flare/core/enums/file_type_enum.dart';
 
 class FileModel {
   FileTypeEnum type;

@@ -1,8 +1,8 @@
 // import 'package:bot_toast/bot_toast.dart';
 // import 'package:dartz/dartz.dart';
 
-// import 'package:flutter_templat/core/data/models/apis/token_info.dart';
-// import 'package:flutter_templat/core/data/network/endpoints/user_endpoints.dart';
+// import 'package:blue_flare/core/data/models/apis/token_info.dart';
+// import 'package:blue_flare/core/data/network/endpoints/user_endpoints.dart';
 
 // import '../../enums/request_type.dart';
 // import '../../utils/network_util.dart';
@@ -40,12 +40,12 @@
 // }
 // import 'package:bot_toast/bot_toast.dart';
 // import 'package:dartz/dartz.dart';
-// import 'package:flutter_templat/core/data/models/apis/token_info.dart';
-// import 'package:flutter_templat/core/data/models/common_response.dart';
-// import 'package:flutter_templat/core/data/network/endpoints/user_endpoints.dart';
-// import 'package:flutter_templat/core/data/network/network_config.dart';
-// import 'package:flutter_templat/core/enums/request_type.dart';
-// import 'package:flutter_templat/core/utils/network_util.dart';
+// import 'package:blue_flare/core/data/models/apis/token_info.dart';
+// import 'package:blue_flare/core/data/models/common_response.dart';
+// import 'package:blue_flare/core/data/network/endpoints/user_endpoints.dart';
+// import 'package:blue_flare/core/data/network/network_config.dart';
+// import 'package:blue_flare/core/enums/request_type.dart';
+// import 'package:blue_flare/core/utils/network_util.dart';
 
 // class UserRepository {
 //   Future<Either<String, TokenInfo>> login({

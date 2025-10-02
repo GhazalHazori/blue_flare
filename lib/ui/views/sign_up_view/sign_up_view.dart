@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_templat/ui/shared/colors.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
-import 'package:flutter_templat/ui/views/main_view/main_view.dart';
-import 'package:flutter_templat/ui/views/update_profile_view/update_profile_view_controller.dart';
+import 'package:blue_flare/ui/shared/colors.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
+import 'package:blue_flare/ui/views/main_view/main_view.dart';
+import 'package:blue_flare/ui/views/update_profile_view/update_profile_view_controller.dart';
 import 'package:get/get.dart';
 import 'package:get/utils.dart';
 

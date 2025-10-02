@@ -2,11 +2,11 @@
 // import 'package:firebase_messaging/firebase_messaging.dart';
 // import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
-// import 'package:flutter_templat/core/data/repositories/shared_preference_repository.dart';
-// import 'package:flutter_templat/core/services/cart_service.dart';
-// import 'package:flutter_templat/core/services/connectivity_service.dart';
-// import 'package:flutter_templat/core/services/location_services.dart';
-// import 'package:flutter_templat/firebase_options.dart';
+// import 'package:blue_flare/core/data/repositories/shared_preference_repository.dart';
+// import 'package:blue_flare/core/services/cart_service.dart';
+// import 'package:blue_flare/core/services/connectivity_service.dart';
+// import 'package:blue_flare/core/services/location_services.dart';
+// import 'package:blue_flare/firebase_options.dart';
 // import 'package:shared_preferences/shared_preferences.dart';
 // import 'app/my_app.dart';
 
@@ -80,13 +80,13 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:flutter_templat/app/my_app.dart';
-import 'package:flutter_templat/app/my_app_controller.dart';
-import 'package:flutter_templat/core/services/cart_service.dart';
-import 'package:flutter_templat/core/services/connectivity_service.dart';
-import 'package:flutter_templat/core/services/location_services.dart';
-import 'package:flutter_templat/core/services/notification_service.dart';
-import 'package:flutter_templat/firebase_options.dart';
+import 'package:blue_flare/app/my_app.dart';
+import 'package:blue_flare/app/my_app_controller.dart';
+import 'package:blue_flare/core/services/cart_service.dart';
+import 'package:blue_flare/core/services/connectivity_service.dart';
+import 'package:blue_flare/core/services/location_services.dart';
+import 'package:blue_flare/core/services/notification_service.dart';
+import 'package:blue_flare/firebase_options.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'core/data/repositories/shared_preference_repository.dart';

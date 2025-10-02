@@ -1,5 +1,5 @@
-// import 'package:flutter_templat/core/data/models/apis/cart_model.dart';
-// import 'package:flutter_templat/ui/shared/utlis.dart';
+// import 'package:blue_flare/core/data/models/apis/cart_model.dart';
+// import 'package:blue_flare/ui/shared/utlis.dart';
 
 // class cartServices {
 //   List<CartModel> cartList = storage.getCartList();
@@ -13,10 +13,10 @@
 
 //   bool isMealIndex(CartModel model) => getMealIndex(model) != -1;
 // }
-import 'package:flutter_templat/core/data/models/cart_model.dart';
-import 'package:flutter_templat/core/data/models/meal_model.dart';
-import 'package:flutter_templat/core/utils/general_utile.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
+import 'package:blue_flare/core/data/models/cart_model.dart';
+import 'package:blue_flare/core/data/models/meal_model.dart';
+import 'package:blue_flare/core/utils/general_utile.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
 import 'package:get/get.dart';
 
 class CartService {

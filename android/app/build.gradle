@@ -16,12 +16,12 @@ def flutterVersionCode = localProperties.getProperty("flutter.versionCode") ?: "
 def flutterVersionName = localProperties.getProperty("flutter.versionName") ?: "1.0"
 
 android {
-    namespace "cm.ownertech.flutter_templat"
+    namespace "cm.ownertech.blue_flare"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
     defaultConfig {
-        applicationId "cm.ownertech.flutter_templat"
+        applicationId "cm.ownertech.blue_flare"
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()

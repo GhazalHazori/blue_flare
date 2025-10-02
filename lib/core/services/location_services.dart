@@ -1,6 +1,6 @@
 import 'package:bot_toast/bot_toast.dart';
 import 'package:location/location.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
 import 'package:geocoding/geocoding.dart ' as geo;
 
 class LocationService {

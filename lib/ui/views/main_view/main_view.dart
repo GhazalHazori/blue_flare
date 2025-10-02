@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_templat/core/enums/bottom_navigation_enum.dart';
-import 'package:flutter_templat/ui/shared/colors.dart';
-import 'package:flutter_templat/ui/shared/custom_widgets/custom_drawer.dart';
-import 'package:flutter_templat/ui/views/main_view/main_view_widget/bottom_navigation_widget.dart';
-import 'package:flutter_templat/ui/views/sign_up_view/sign_up_view.dart';
-import 'package:flutter_templat/ui/views/update_profile_view/update_profile_view.dart';
-import 'package:flutter_templat/ui/views/update_profile_view/update_profile_view_controller.dart';
+import 'package:blue_flare/core/enums/bottom_navigation_enum.dart';
+import 'package:blue_flare/ui/shared/colors.dart';
+import 'package:blue_flare/ui/shared/custom_widgets/custom_drawer.dart';
+import 'package:blue_flare/ui/views/main_view/main_view_widget/bottom_navigation_widget.dart';
+import 'package:blue_flare/ui/views/sign_up_view/sign_up_view.dart';
+import 'package:blue_flare/ui/views/update_profile_view/update_profile_view.dart';
+import 'package:blue_flare/ui/views/update_profile_view/update_profile_view_controller.dart';
 import 'package:get/get.dart';
 
 class MainView extends StatefulWidget {

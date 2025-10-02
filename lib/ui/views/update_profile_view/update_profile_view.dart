@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_templat/ui/shared/colors.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
+import 'package:blue_flare/ui/shared/colors.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});

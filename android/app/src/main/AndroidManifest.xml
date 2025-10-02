@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cm.ownertech.flutter_templat">
+    package="cm.ownertech.blue_flare">
    <application
-        android:label="flutter_templat"
+        android:label="blue_flare"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

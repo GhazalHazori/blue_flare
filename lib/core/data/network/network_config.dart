@@ -1,6 +1,6 @@
-import 'package:flutter_templat/core/enums/request_type.dart';
-import 'package:flutter_templat/core/utils/general_utile.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
+import 'package:blue_flare/core/enums/request_type.dart';
+import 'package:blue_flare/core/utils/general_utile.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
 
 class NetworkConfig {
   static String BASE_API = 'api/web/';

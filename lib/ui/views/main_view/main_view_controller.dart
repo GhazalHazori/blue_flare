@@ -1,11 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_templat/core/data/repositories/shared_preference_repository.dart';
-import 'package:flutter_templat/core/enums/bottom_navigation_enum.dart';
-import 'package:flutter_templat/core/services/base_controller.dart';
+import 'package:blue_flare/core/data/repositories/shared_preference_repository.dart';
+import 'package:blue_flare/core/enums/bottom_navigation_enum.dart';
+import 'package:blue_flare/core/services/base_controller.dart';
 
 
-import 'package:flutter_templat/ui/views/main_view/main_view_widget/bottom_navigation_widget.dart';
+import 'package:blue_flare/ui/views/main_view/main_view_widget/bottom_navigation_widget.dart';
 import 'package:get/get.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 import 'package:shared_preferences/shared_preferences.dart';

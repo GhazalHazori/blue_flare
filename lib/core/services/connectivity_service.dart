@@ -1,6 +1,6 @@
 // import 'dart:async';
 // import 'package:connectivity_plus/connectivity_plus.dart';
-// import 'package:flutter_templat/core/enums/connectivity_status.dart';
+// import 'package:blue_flare/core/enums/connectivity_status.dart';
 
 // class ConnectivityService {
 //   StreamController<ConnectivityStatus> connectivityStatusController =

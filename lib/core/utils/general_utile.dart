@@ -1,12 +1,12 @@
-import 'package:flutter_templat/app/my_app_controller.dart';
-import 'package:flutter_templat/core/data/repositories/shared_preference_repository.dart';
-import 'package:flutter_templat/core/enums/connectivity_status.dart';
-import 'package:flutter_templat/core/enums/message_type.dart';
-import 'package:flutter_templat/core/services/cart_service.dart';
-import 'package:flutter_templat/core/services/connectivity_service.dart';
-import 'package:flutter_templat/core/services/location_services.dart';
-import 'package:flutter_templat/core/services/notification_service.dart';
-import 'package:flutter_templat/ui/shared/custom_widgets/custom_toast.dart';
+import 'package:blue_flare/app/my_app_controller.dart';
+import 'package:blue_flare/core/data/repositories/shared_preference_repository.dart';
+import 'package:blue_flare/core/enums/connectivity_status.dart';
+import 'package:blue_flare/core/enums/message_type.dart';
+import 'package:blue_flare/core/services/cart_service.dart';
+import 'package:blue_flare/core/services/connectivity_service.dart';
+import 'package:blue_flare/core/services/location_services.dart';
+import 'package:blue_flare/core/services/notification_service.dart';
+import 'package:blue_flare/ui/shared/custom_widgets/custom_toast.dart';
 import 'package:get/get.dart';
 
 SharedPrefrenceRepository get storage => Get.find<SharedPrefrenceRepository>();

@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-import 'package:flutter_templat/core/data/models/cart_model.dart';
+import 'package:blue_flare/core/data/models/cart_model.dart';
 import 'package:get/get.dart';
 
-import 'package:flutter_templat/core/data/models/apis/token_info.dart';
-import 'package:flutter_templat/core/enums/data_type.dart';
+import 'package:blue_flare/core/data/models/apis/token_info.dart';
+import 'package:blue_flare/core/enums/data_type.dart';
 
 import 'package:shared_preferences/shared_preferences.dart';
 

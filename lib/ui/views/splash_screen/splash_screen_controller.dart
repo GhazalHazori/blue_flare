@@ -1,8 +1,8 @@
-import 'package:flutter_templat/core/utils/general_utile.dart';
+import 'package:blue_flare/core/utils/general_utile.dart';
 import 'package:get/get.dart';
-import 'package:flutter_templat/core/enums/message_type.dart';
-import 'package:flutter_templat/ui/shared/custom_widgets/custom_toast.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
+import 'package:blue_flare/core/enums/message_type.dart';
+import 'package:blue_flare/ui/shared/custom_widgets/custom_toast.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
 
 class SplashScreenController extends GetxController {
   @override

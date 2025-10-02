@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_templat/ui/shared/colors.dart';
+import 'package:blue_flare/ui/shared/colors.dart';
 
 class TextForm extends StatefulWidget {
   const TextForm({

@@ -1,4 +1,4 @@
-package cm.ownertech.flutter_templat;
+package cm.ownertech.blue_flare;
 
 import io.flutter.embedding.android.FlutterActivity;
 

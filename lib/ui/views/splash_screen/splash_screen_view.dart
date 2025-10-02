@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_templat/main.dart';
-import 'package:flutter_templat/ui/shared/custom_widgets/custom_button_new.dart';
-import 'package:flutter_templat/ui/views/sign_up_view/sign_up_view.dart';
+import 'package:blue_flare/main.dart';
+import 'package:blue_flare/ui/shared/custom_widgets/custom_button_new.dart';
+import 'package:blue_flare/ui/views/sign_up_view/sign_up_view.dart';
 import 'package:get/get.dart';
-import 'package:flutter_templat/ui/shared/colors.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
-import 'package:flutter_templat/ui/views/splash_screen/splash_screen_controller.dart';
+import 'package:blue_flare/ui/shared/colors.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
+import 'package:blue_flare/ui/views/splash_screen/splash_screen_controller.dart';
 
 class SplashScreenView extends StatefulWidget {
   const SplashScreenView({super.key});

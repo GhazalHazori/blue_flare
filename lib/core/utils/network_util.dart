@@ -1,7 +1,7 @@
 // import 'dart:convert';
 
 // import 'package:http/http.dart' as http;
-// import 'package:flutter_templat/core/enums/request_type.dart';
+// import 'package:blue_flare/core/enums/request_type.dart';
 
 // class NetworkUtil {
 //   static String baseUrl = 'training.owner-tech.com';
@@ -50,7 +50,7 @@
 
 // import 'package:bot_toast/bot_toast.dart';
 // import 'package:http/http.dart' as http;
-// import 'package:flutter_templat/core/enums/request_type.dart';
+// import 'package:blue_flare/core/enums/request_type.dart';
 
 // class NetworkUtil {
 //   static String baseUrl = 'training.owner-tech.com';
@@ -113,7 +113,7 @@ import 'package:http/http.dart' as http;
 import 'package:path/path.dart' as path;
 
 import 'package:http_parser/http_parser.dart';
-import 'package:flutter_templat/core/enums/request_type.dart';
+import 'package:blue_flare/core/enums/request_type.dart';
 
 class NetworkUtil {
   static String baseUrl = 'training.owner-tech.com';

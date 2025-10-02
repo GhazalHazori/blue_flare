@@ -1,4 +1,4 @@
-// import 'package:flutter_templat/core/data/network/network_config.dart';
+// import 'package:blue_flare/core/data/network/network_config.dart';
 
 // class UserEndPoints {
 //   static String login = NetworkConfig.getFullApiUrl('user/login');

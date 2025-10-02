@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_templat/core/data/models/meal_model.dart';
+import 'package:blue_flare/core/data/models/meal_model.dart';
 
 class CartModel {
   int? count;

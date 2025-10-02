@@ -1,4 +1,4 @@
-# flutter_templat
+# blue_flare
 
 A new Flutter project.
 

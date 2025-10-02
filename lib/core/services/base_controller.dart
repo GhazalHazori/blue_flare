@@ -1,10 +1,10 @@
 import 'package:bot_toast/bot_toast.dart';
-import 'package:flutter_templat/core/utils/general_utile.dart';
+import 'package:blue_flare/core/utils/general_utile.dart';
 import 'package:get/get.dart';
 
-import 'package:flutter_templat/core/enums/operation_type.dart';
-import 'package:flutter_templat/core/enums/request_status.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
+import 'package:blue_flare/core/enums/operation_type.dart';
+import 'package:blue_flare/core/enums/request_status.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
 
 class BaseControoler extends GetxController {
   Rx<RequestStatus> requestStatus = RequestStatus.DEFUALT.obs;

@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter_templat/core/data/models/notification_model.dart';
-import 'package:flutter_templat/core/utils/general_utile.dart';
+import 'package:blue_flare/core/data/models/notification_model.dart';
+import 'package:blue_flare/core/utils/general_utile.dart';
 import 'package:get/utils.dart';
-import 'package:flutter_templat/core/enums/app_state.dart';
-import 'package:flutter_templat/core/enums/nitification_type.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
+import 'package:blue_flare/core/enums/app_state.dart';
+import 'package:blue_flare/core/enums/nitification_type.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
 
 class NotificationService {
   StreamController<NotifictionModel> notifcationStream =

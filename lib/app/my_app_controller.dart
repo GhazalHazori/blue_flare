@@ -1,7 +1,7 @@
-import 'package:flutter_templat/core/enums/connectivity_status.dart';
-import 'package:flutter_templat/core/services/base_controller.dart';
-import 'package:flutter_templat/core/utils/general_utile.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
+import 'package:blue_flare/core/enums/connectivity_status.dart';
+import 'package:blue_flare/core/services/base_controller.dart';
+import 'package:blue_flare/core/utils/general_utile.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
 
 class MyAppContoller extends BaseControoler {
   ConnectivityStatus connectionStatus = ConnectivityStatus.ONLINE;

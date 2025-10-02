@@ -1,13 +1,13 @@
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_templat/core/utils/general_utile.dart';
+import 'package:blue_flare/core/utils/general_utile.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_templat/core/enums/connectivity_status.dart';
-import 'package:flutter_templat/core/translation/app_traslation.dart';
-import 'package:flutter_templat/ui/shared/utlis.dart';
-import 'package:flutter_templat/ui/views/splash_screen/splash_screen_view.dart';
+import 'package:blue_flare/core/enums/connectivity_status.dart';
+import 'package:blue_flare/core/translation/app_traslation.dart';
+import 'package:blue_flare/ui/shared/utlis.dart';
+import 'package:blue_flare/ui/views/splash_screen/splash_screen_view.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
