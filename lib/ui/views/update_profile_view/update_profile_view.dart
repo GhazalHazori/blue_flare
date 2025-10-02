@@ -11,125 +11,123 @@ class ProfileScreen extends StatelessWidget {
     Color mainColor = const Color(0xFF3A93A7); // الأزرق المستخدم
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SafeArea(
-        child: Column(
-          children: [
-            // AppBar مخصص منحني
-            ClipPath(
-              clipper: AppBarClipper(),
-              child: Container(
-                color: mainColor,
-                height: 120,
-                child: Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: const [
-                      Icon(Icons.menu, color: Colors.white, size: 28),
-                      Icon(Icons.notifications_none,
-                          color: Colors.white, size: 28),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-
-            // صورة شخصية
-            Stack(
-                    alignment: Alignment.bottomRight,
-                    children: [
-                      CircleAvatar(
-                        radius: 50,
-                        backgroundColor: AppColors.maincolor.withOpacity(0.2),
-                        child: SvgPicture.asset(
-                          "assets/images/person.svg",
-                          width: screenWidth(8),
-                        ),
-                      ),
-                      Positioned(
-                        bottom: 5,
-                        right: 5,
-                        child: Container(
-                          decoration: BoxDecoration(
-                            boxShadow: [
-                              BoxShadow(
-                                color: AppColors.maincolor.withOpacity(0.3),
-                                spreadRadius: 1,
-                                blurRadius: 0,
-                              ),
-                            ],
-                            color: AppColors.maincolor,
-                            borderRadius: BorderRadius.circular(5),
-                            border: Border.all(
-                              width: 2,
-                              color: AppColors.whitecolor,
-                              strokeAlign: BorderSide.strokeAlignInside,
-                            ),
-                          ),
-                          child: const Icon(Icons.add,
-                              size: 16, color: Colors.white),
-                        ),
-                      ),
-                    ],
-                  ),
-
-            const SizedBox(height: 10),
-
-            // العنوان
-            Container(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 20, vertical: 6),
-              decoration: BoxDecoration(
-                color: mainColor,
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: const Text(
-                "الملف الشخصي",
-                style: TextStyle(color: Colors.white, fontSize: 16),
-              ),
-            ),
-
-            const SizedBox(height: 15),
-
-            // الحقول
-            Expanded(
-              child: SingleChildScrollView(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Column(
-                  children: [
-                     _buildField("الاسم : ", "الاسم"),
-                  _buildField("البريد الإلكتروني : ", "البريد الإلكتروني"),
-                  _buildField("كلمة المرور : ", "كلمة المرور", obscure: true),
-                  _buildField("رقم الهاتف : ", "رقم الهاتف"),
-                  _buildField("العنوان : ", "العنوان"),
-                    const SizedBox(height: 20),
-
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: mainColor,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 60, vertical: 12),
-                      ),
-                      onPressed: () {},
-                      child: const Text(
-                        "تعديل",
-                        style: TextStyle(
-                            fontSize: 16, color: Colors.white),
-                      ),
-                    ),
+      body: Column(
+        children: [
+          // AppBar مخصص منحني
+          ClipPath(
+            clipper: AppBarClipper(),
+            child: Container(
+              color: mainColor,
+              height: 120,
+              child: Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: const [
+                    Icon(Icons.menu, color: Colors.white, size: 28),
+                    Icon(Icons.notifications_none,
+                        color: Colors.white, size: 28),
                   ],
                 ),
               ),
             ),
-
-            // Bottom Navigation
-          
-          ],
-        ),
+          ),
+      
+          // صورة شخصية
+          Stack(
+                  alignment: Alignment.bottomRight,
+                  children: [
+                    CircleAvatar(
+                      radius: 50,
+                      backgroundColor: AppColors.maincolor.withOpacity(0.2),
+                      child: SvgPicture.asset(
+                        "assets/images/person.svg",
+                        width: screenWidth(8),
+                      ),
+                    ),
+                    Positioned(
+                      bottom: 5,
+                      right: 5,
+                      child: Container(
+                        decoration: BoxDecoration(
+                          boxShadow: [
+                            BoxShadow(
+                              color: AppColors.maincolor.withOpacity(0.3),
+                              spreadRadius: 1,
+                              blurRadius: 0,
+                            ),
+                          ],
+                          color: AppColors.maincolor,
+                          borderRadius: BorderRadius.circular(5),
+                          border: Border.all(
+                            width: 2,
+                            color: AppColors.whitecolor,
+                            strokeAlign: BorderSide.strokeAlignInside,
+                          ),
+                        ),
+                        child: const Icon(Icons.add,
+                            size: 16, color: Colors.white),
+                      ),
+                    ),
+                  ],
+                ),
+      
+          const SizedBox(height: 10),
+      
+          // العنوان
+          Container(
+            padding:
+                const EdgeInsets.symmetric(horizontal: 20, vertical: 6),
+            decoration: BoxDecoration(
+              color: mainColor,
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: const Text(
+              "الملف الشخصي",
+              style: TextStyle(color: Colors.white, fontSize: 16),
+            ),
+          ),
+      
+          const SizedBox(height: 15),
+      
+          // الحقول
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Column(
+                children: [
+                   _buildField("الاسم : ", "الاسم"),
+                _buildField("البريد الإلكتروني : ", "البريد الإلكتروني"),
+                _buildField("كلمة المرور : ", "كلمة المرور", obscure: true),
+                _buildField("رقم الهاتف : ", "رقم الهاتف"),
+                _buildField("العنوان : ", "العنوان"),
+                  const SizedBox(height: 20),
+      
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: mainColor,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 60, vertical: 12),
+                    ),
+                    onPressed: () {},
+                    child: const Text(
+                      "تعديل",
+                      style: TextStyle(
+                          fontSize: 16, color: Colors.white),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+      
+          // Bottom Navigation
+        
+        ],
       ),
     );
   }

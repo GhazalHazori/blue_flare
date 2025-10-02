@@ -67,7 +67,16 @@ class _SplashScreenViewState extends State<SplashScreenView> {
     
       // )
         screenHeight(50).ph,
-     Text("اكتشف أفضل عاملات التنظيف \n   الموثوقات  احجز بسهولة  ،\n واستمتع بمنزل نظيف ومرتب دون عناء.",style: TextStyle(color: AppColors.blacktext,fontSize: screenWidth(15)),),
+    Text(
+  "اكتشف أفضل عاملات التنظيف\n"
+  "الموثوقات احجز بسهولة،\n"
+  "واستمتع بمنزل نظيف ومرتب دون عناء.",
+  textAlign: TextAlign.center, // يخلي النص بالوسط
+  style: TextStyle(
+    color: AppColors.blacktext,
+    fontSize: screenWidth(15),
+  ),
+),
      screenHeight(50).ph,
      CustomButtonNew(text: "ابدأ الان",
      textsize: screenWidth(25),
