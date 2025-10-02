@@ -103,7 +103,7 @@ Future<void> main() async {
   Get.put(SharedPrefrenceRepository());
   Get.put(CartService());
   Get.put(LocationService());
-  Get.put(ConnectivityService());
+  // Get.put(ConnectivityService());
   Get.put(MyAppContoller());
 
   try {

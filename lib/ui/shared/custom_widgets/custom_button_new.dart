@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_templat/ui/shared/colors.dart';
+import 'package:flutter_templat/ui/shared/utlis.dart';
 
 class CustomButtonNew extends StatelessWidget {
   final Color? textcolor;
@@ -34,27 +35,13 @@ class CustomButtonNew extends StatelessWidget {
       onPressed: () {
         onpressed();
       },
-      child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-        if (svgname != null) ...[
-          SvgPicture.asset(
-            'assets/images/$svgname',
-            width: size.width * 0.04,
-            height: size.height * 0.04,
-          ),
-          SizedBox(
-            width: size.width * 0.2,
-          )
-        ],
-        Center(
-          child: Text(
-            text,
-            style: TextStyle(
-                color: textcolor ?? AppColors.whitecolor,
-                fontSize: textsize ?? size.width * 0.55,
-                fontWeight: textfontwieght ?? FontWeight.normal),
-          ),
-        ),
-      ])
+      child: Text(
+        text,
+        style: TextStyle(
+            color: textcolor ?? AppColors.whitecolor,
+            fontSize: textsize ?? size.width * 0.55,
+            fontWeight: textfontwieght ?? FontWeight.normal),
+      )
       // Text(
       //   text,
       //   style: TextStyle(
@@ -68,7 +55,7 @@ class CustomButtonNew extends StatelessWidget {
             ? BorderSide(width: 1, color: bordercolor!) //appcolors.whitcolor
             : null,
         backgroundColor: backgroundcolor,
-        fixedSize: Size(size.width * 0.03, size.height * 0.03),
+        fixedSize: Size(screenWidth(3),screenHeight(20)),
         shape: StadiumBorder(),
       ),
     );

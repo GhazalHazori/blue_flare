@@ -57,7 +57,7 @@ class SharedPrefrenceRepository {
     if (globalSharedPrefs.containsKey(PREF_APP_LANG)) {
       return getpreferance(key: PREF_APP_LANG);
     } else
-      return 'tr';
+      return 'ar';
   }
 
   bool getFirstLunch() {

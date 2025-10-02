@@ -7,14 +7,14 @@ class MyAppContoller extends BaseControoler {
   ConnectivityStatus connectionStatus = ConnectivityStatus.ONLINE;
   @override
   void onInit() {
-    listenToConnectionStatus();
+    // listenToConnectionStatus();
 
     super.onInit();
   }
 
-  void listenToConnectionStatus() {
-    connectivityService.connectivityStatusController.stream.listen((event) {
-      connectionStatus = event;
-    });
-  }
+  // void listenToConnectionStatus() {
+  //   connectivityService.connectivityStatusController.stream.listen((event) {
+  //     connectionStatus = event;
+  //   });
+  // }
 }
